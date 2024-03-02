@@ -5,10 +5,10 @@ const HeroComp = () => {
   return (
     <div className="container_hero hero">
       <div className="hero_text">
-        <h1>We Ensure better education for a better world</h1>
+        <h1>Chúng tôi đảm bảo giáo dục tốt hơn cho một thế giới tốt đẹp hơn</h1>
         <p>
-          Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed
-          to excel in the dynamic field of education
+          Chương trình giảng dạy tiên tiến của chúng tôi được thiết kế để trang bị cho sinh viên kiến thức, kỹ năng và
+          kinh nghiệm cần thiết để vượt trội trong lĩnh vực giáo dục năng động
         </p>
         <button className="btn">
           Explore more <img src={arow} alt="" />
