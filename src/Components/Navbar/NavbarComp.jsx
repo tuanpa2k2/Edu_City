@@ -8,10 +8,9 @@ const NavbarComp = () => {
     <nav className="container">
       <img src={logo} alt="" className="logo" />
       <ul>
-        <li>Home</li>
-        <li>Program</li>
-        <li>About us</li>
-        <li>Test</li>
+        <li>Trang chủ</li>
+        <li>Khóa học</li>
+        <li>Liên hệ</li>
         <li>
           <button className="btn">Contact us</button>
         </li>
