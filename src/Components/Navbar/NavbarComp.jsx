@@ -1,11 +1,19 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo.png";
 import "./NavbarComp.scss";
 
 const NavbarComp = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 100 ? setScrolled(true) : setScrolled(false);
+    });
+  }, []);
+
   return (
-    <nav className="container">
+    <nav className={`container ${scrolled ? "sticky_dark" : ""}`}>
       <img src={logo} alt="" className="logo" />
       <ul>
         <li>Trang chủ</li>
