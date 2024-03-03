@@ -4,7 +4,7 @@ import "./TitleComp.scss";
 const TitleComp = ({ subTitle, title }) => {
   return (
     <div className="title">
-      <p>{title}</p>
+      <h2>{title}</h2>
       <span>{subTitle}</span>
     </div>
   );

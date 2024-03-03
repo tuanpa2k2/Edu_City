@@ -4,6 +4,7 @@ import NavbarComp from "./Components/Navbar/NavbarComp";
 import HeroComp from "./Components/Hero/HeroComp";
 import ProgramsComp from "./Components/Programs/ProgramsComp";
 import TitleComp from "./Components/Title/TitleComp";
+import AboutComp from "./Components/About/AboutComp";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <div className="container">
         <TitleComp title="Lộ trình các khóa học" subTitle="Những kiến thức chúng tôi cung cấp" />
         <ProgramsComp />
+        <AboutComp />
       </div>
     </div>
   );

@@ -1,10 +1,12 @@
 .programs {
   margin: 60px auto;
+  padding-bottom: 50px;
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  border-bottom: 1px solid darkgray;
 
   .program {
     flex-basis: 31%;

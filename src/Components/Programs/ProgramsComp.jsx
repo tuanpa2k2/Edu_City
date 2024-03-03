@@ -9,10 +9,6 @@ import "./ProgramsComp.scss";
 const ProgramsComp = () => {
   return (
     <div className="programs">
-      {/* <div className="title">
-        <h2>Chương trình dạy học</h2>
-        <p>Những gì chúng tôi cung cấp cho bạn</p>
-      </div> */}
       <div className="program">
         <img src={program_1} alt="1" />
         <div className="caption">
